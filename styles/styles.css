@@ -177,6 +177,10 @@ a:active {
     /* End Testimonial */
 
      /* Start Layanan Table */
+    table {
+        margin: auto;
+}
+
      .layanan-table {
          border: 1px solid #f8f6f6;
          border-collapse: collapse;
