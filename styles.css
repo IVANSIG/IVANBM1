@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* End Pont *?
+
+/* Start Body */
+body {
+    color : rgb(0, 4, 8);
+    font-family: Roboto,Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin:0;
+    padding: 0; 
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: rgb(252, 244, 244);
+}
+.bg.red {
+    background-color: rgb(250, 243, 243);     
+}
+/* End Debug */
+
+/* Start Container */
+    .container{
+        margin: 10px auto;
+        overflow: auto;
+        width: 98%;
+    }
+    .container-full{
+        margin: 10px auto;
+        overflow: auto;
+        width: 98%;
+    }
+ /* End Container */
+
+/* Start Logo */
+    .logo {
+        text-align: center;
+        background-image: url(../images/logorumah.jpg);
+        background-size: cover;
+    }
+/* End Logo */
+
+/* Start Anchor /Hyperlink */
+a:link,
+a:visited {
+    color: rgba(0, 1, 8, 0.89);
+    text-decoration:none;
+}
+a:hover,
+a:active {
+    color: rgb(6, 22, 253);
+    text-decoration: underline;
+}
+* End Anchor /Hyperlink */
+
+/* Start menu primer */
+    .menu-primer ul {
+        background-color:rgba(250, 248, 248, 0.904);
+        border-radius: 4px;
+        box-shadow:
+            0 3px 5px -1px rgba(252, 250, 250, 0.2),
+            0 6px 10px 0 rgba(252, 249, 249, 0.14),
+            0 1px 18px 0 rgba(248, 245, 245, 0.904);
+    }
+    .menu-primer li {
+        border-right: 1px solid rgb(255, 6, 6);
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 0;
+    }
+
+    .menu-primer a {
+        color: #080000;
+        font-size: 13px;
+        display: inline-block;
+        letter-spacing: 1px;
+        padding:2px 25px;
+        text-transform: uppercase;
+    }
+    .menu-primer a:hover {
+        background-color: rgb(7, 191, 247);
+        color: rgba(253, 247, 247, 0.904);
+        text-decoration: none;
+    }
+/* End menu primer */
+
+/* start heading */
+    h1, h2, h3, h4, h5, h6 {
+    font-weight: 400; 
+    letter-spacing: 1px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    h6{
+        font-size: 12px;
+    }
+/* End heading */
+
+    /* start jumbotron */
+    .jumbotron {
+        background-color: rgba(253, 245, 245, 0.925);
+        border: 1px solid rgb(15, 0, 1);
+        border-radius: 4px;
+        padding: 20px 0;
+    }
+    .jumbotron h1 {
+        font-size: 32px;
+        padding: 0 20px;
+    }
+    .jumbotron h3 {
+        font-size: 32px;
+        padding: 0 20px;
+    }
+    /* end jumbotron */
+
+    /*Start Main */
+    .main-home-one {
+        float: left;
+        width: 49.9%;
+        height: 49%;   
+    }
+    .main-home-two {
+        float: right;
+        width: 49.9%;
+        height: 49%;
+    }
+    .main-home-one .box-isi,
+    .main-home-two .box-isi {
+        height: 140px;
+    }
+    /*End Main * /
+
+    /* Start Box */
+    .box-heading {
+        background-color: rgb(248, 240, 240);
+        border: 1px solid rgb(3, 174, 253);
+        border-radius: 3px 3px 0 0;
+        margin: 0;
+        padding: 10px 20px;
+        text-transform: uppercase;
+    }
+    .box-heading h4 {
+        font-size: 14px;
+        margin: 0;
+    }
+    .box-isi {
+        background-color: #f8f6f6;
+        border: 1px solid #033cf8;
+        border-top: 0;
+        margin: 0;
+        
+        padding: 50px 10px;
+    }
+    /* End Box */
+
+    /* Start Testimonial */
+    .testimonial {
+        border-left: 1px solid rgb(252, 4, 4);
+        margin-left: 0;
+        padding: 10px 25px;
+    }
+    /* End Testimonial */
+
+     /* Start Layanan Table */
+     .layanan-table {
+         border: 1px solid #f8f6f6;
+         border-collapse: collapse;
+         margin: auto;
+        }
+     .layanan-table th {
+         background-color: rgb(250, 243, 243);
+        }
+     .layanan-table td {
+         text-align: center;
+        }
+
+    /* End Layanan Table */
+
+    /* Start Form */
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 14px;
+        padding: 15px;
+    }
+    input::placeholder,
+    textarea::placeholder {
+        color: rgb(250, 245, 245);
+        font-weight: 98;
+    }
+    input[type="submit"],
+    .button {
+        background-color: rgb(248, 242, 244);
+        background-image: linear-gradient(-180deg,#fafbfc 0%,#eff3f6 90%);
+        border: 1px solid rgba(248, 245, 245, 0.904);
+        border-radius: 4px;
+        color: #000a11 !important;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 5px 0;
+        padding: 10px 10px;
+        text-decoration: none !important;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    /* End Form */
+
+    /* Start Contact Form */
+    .contact-form div {
+        margin: 20px 0;
+    }
+    /* End Contact Form */
+
+       /* Start Menu Sekunder */
+    .menu-sekunder {
+        background-color: rgba(12, 0, 0, 0.055);
+        border-bottom: 1px solid rgb(8, 0, 0);
+        border-top: 1px solid rgba(14, 0, 0, 0.219);
+        overflow: auto;
+        padding: 10px 0;
+    }
+    .menu-sekunder h4 {
+        font-size: 14px;
+        margin: 0 auto;
+        text-transform: uppercase;
+    }
+    .menu-sekunder ul {
+        padding: 0;
+    }
+    .menu-sekunder li {
+        list-style: disc;
+    }
+    .menu-sekunder li, a,
+    .menu-sekunder p {
+        font-size: 15px;
+    }
+    .menu-sekunder-one,
+    .menu-sekunder-two,
+    .menu-sekunder-three {
+        float: left;
+    }
+    .menu-sekunder-one {
+        width: 35%;
+    }
+    .menu-sekunder-two,
+    .menu-sekunder-three {
+        width: 35%;
+    }
+    .menu-sekunder li img {
+        vertical-align: middle;
+    }
+    .layanan-table {
+        border: 1px solid #eff3f6;
+        borfer-collapse: collapse;
+        marfin: auto;
+        width: 100%;
+    }
+    /* End Menu Sekunder */
+
+    /* Start Copyright */
+    .copyright p {
+        font-size: 15px;
+    }
+    /* End Copyright*/
