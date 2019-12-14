@@ -179,6 +179,7 @@ a:active {
      /* Start Layanan Table */
     table {
         margin: auto;
+width: 100%;
 }
 
      .layanan-table {
